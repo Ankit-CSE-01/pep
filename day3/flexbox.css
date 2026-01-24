@@ -1,0 +1,132 @@
+.container{
+    border: 2px solid black;
+    display: flex;
+}
+
+.box{
+    width: 100px;
+    height: 100px;
+    border: 2px solid red;
+    margin: 10px;
+    background-color: lightblue;
+    text-align: center;
+    line-height: 100px;
+    font-size: 20px;
+}
+
+.grid-container{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 10px;
+    background-color: #21e9f3;
+    padding: 10px;
+}
+
+.grid-item{
+    background-color: rgb(169, 70, 180);
+    border: 1px solid #000;
+    padding: 20px;
+    font-size: 30px;
+    text-align: center;
+    margin: 5px;
+}
+
+.box-two{
+    width: 300px;
+    height: 150px;
+    border: 2px solid green;
+    margin: 20px;
+    background-color: yellow;
+    text-align: center;
+    line-height: 150px;
+    font-size: 20px;
+}
+
+@media (max-width: 600px){
+    .box-two{
+        background-color: orange;
+        width: 100%;
+        font-size: 16px;
+    }
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    background: #0e0d0d;
+    color: white;
+    padding: 10px;
+}
+.mysite{
+    color: white;
+    font-size: 20px;
+    padding: 14px 20px;
+    text-decoration: none;
+    text-align: center;
+    font-weight: bold;
+}
+
+.menu a {
+    margin-left: 10px;
+    color: white;
+    text-decoration: none;
+}
+
+.navbar a:hover{
+    background-color: #1af546;
+    color: black;
+}
+
+@media (max-width: 600px){
+    .navbar{
+        flex-direction: column;
+        align-items: center;
+    }
+    .menu a{
+        display: block;
+        margin: 5px 0;
+    }
+    
+}
+
+.static{
+    position: static;
+    top: 20px;
+}
+
+.relative{
+    position: relative;
+    top: 20px;
+}
+
+.absolute{
+    position: absolute;
+    top: 50px;
+    right: 10px;
+
+    width: 200px;
+    height: 200px;
+    border: 2px solid blue;
+    background-color: rgb(247, 19, 231);
+    text-align: center;
+    line-height: 200px;
+    font-size: 20px;
+    margin: 10px;
+}
+
+.parent {
+    height: 200px;
+    width: 200px;
+    background-color: lightskyblue;
+    position: relative;
+}
+
+.child {
+    position: absolute;
+    height: 50px;
+    width: 50px;
+    bottom: 10px;
+    right: 10px;
+    background-color: coral;
+
+}

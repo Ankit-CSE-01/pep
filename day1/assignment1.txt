@@ -1,0 +1,49 @@
+ASSIGNMENT QUESTION
+Create a Student Information Website using HTML only.
+🔹 Page Requirements
+1️⃣Page Structure (Mandatory)
+● Use semantic tags:
+○ <header>
+○ <nav>
+○ <section>
+○ <footer>
+2️⃣Navigation with Auto Scroll
+Create a navbar with links:
+● Home
+● Courses
+● Student Table
+● Registration Form
+● FAQ
+👉 Use id for auto scroll
+3️⃣Home Section
+● One heading (<h1>)
+● One paragraph (<p>)
+● Use inline tag (<span> or <strong>)
+4️⃣Courses Section
+● Use unordered list for available courses
+● Use ordered list for learning steps
+⃣Student Table
+Create a table with:
+● Name
+● Course
+● Marks
+● Use <th>
+● Use colspan
+● Add <caption>
+6️⃣Registration Form
+Form should include:
+● Name (text)
+● Email (email)
+● Password (password)
+● Gender (radio)
+● Skills (checkbox)
+● Course (select)
+● Submit button
+✔ Use <label>
+✔ Use required
+7️⃣FAQ Section (Accordion)
+Create 3 questions using:
+● <details>
+● <summary>
+8️⃣Footer
+● Simple text like © 2026 Student Portal

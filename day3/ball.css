@@ -1,0 +1,32 @@
+body{
+    display: flex;
+    height: 100vh;
+    background-color: #f0f0f0;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.ball{
+    width: 100px;
+    height: 30px;
+    background-color: red;
+    border-radius: 50%;
+    position: relative;
+    animation: bounce 1s infinite;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.2);
+}
+
+@keyframes bounce {
+    0% {
+        top: 0px;
+        background-color: red;
+    }
+    50% {
+        top: 300px;
+        background-color: green;
+    }
+    100% {
+        top: 0px;
+        background-color: blue;
+    }
+}

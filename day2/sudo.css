@@ -1,0 +1,26 @@
+/* selector:pseudo-class{
+    property: value;
+} */
+
+button{
+    background: blue;
+    color: white;
+    padding: 10px 20px;
+}
+
+button:hover{
+    background: rgb(224, 3, 3);
+}
+
+a:visited{
+    color: red;
+}
+
+input:focus{
+    border: 2px solid orange;
+    outline: none;
+}
+
+link:first-child{
+    color: green;
+}
