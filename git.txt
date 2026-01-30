@@ -1,0 +1,6 @@
+initialise git in your folder: git init 
+add single file: git add filename
+add all file: git add .
+change commit: git commit -m "Whatever your comment is"
+add repo to push: git remote add origin https://github.com/Ankit-CSE-01/pep.git
+push files: git push -u origin main
